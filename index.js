@@ -69,7 +69,7 @@ async function run() {
 
     app.post('/toys/:email', async(req, res) => {
       const email = req.params.email;
-      // console.log(req.body)
+      console.log("72",req.body)
       let sort;
       if(req.body.sortText === 'ascending'){
         sort = 1
@@ -80,10 +80,20 @@ async function run() {
       const result = await toyCollection.find({sellerEmail: email}).sort({price: sort}).toArray();
       res.send(result)
     })
+
+   
+
     app.get('/toys/:email', async(req, res) => {
       const email = req.params.email;
     //  console.log(req.body)
       const result = await toyCollection.find({sellerEmail: email}).toArray();
+      res.send(result)
+    })
+
+    app.delete('/toy/:id', async(req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await toyCollection.deleteOne(query);
       res.send(result)
     })
 

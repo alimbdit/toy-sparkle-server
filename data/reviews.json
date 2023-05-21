@@ -1,0 +1,37 @@
+[
+    {
+      "id": "r1",
+      "name": "Emily",
+      "photo": "https://i.ibb.co/wcHr925/customer1.png",
+      "rating": 4.5,
+      "review": " Fantastic toys! My kids absolutely love the toys they received!"
+    },
+    {
+      "id": "r2",
+      "name": "Michael",
+      "photo": "https://i.ibb.co/SvPWZKb/customer2.png",
+      "rating": 5.0,
+      "review": "The educational toys I purchased exceeded my expectations. "
+    },
+    {
+      "id": "r3",
+      "name": "Sophia",
+      "photo": "https://i.ibb.co/dQgF3N5/customer3.png",
+      "rating": 4.0,
+      "review": "Impressive variety, excellent service. Resolved my queries quickly."
+    },
+    {
+      "id": "r4",
+      "name": "Daniel",
+      "photo": "https://i.ibb.co/W6ZMZYC/customer5.png",
+      "rating": 5.0,
+      "review": "The toys arrived on time, and my kids couldn't contain their excitement. Thanks!"
+    },
+    {
+      "id": "r5",
+      "name": "Olivia",
+      "photo": "https://i.ibb.co/vXCtPC6/customer4.png",
+      "rating": 4.5,
+      "review": "The quality and durability of the toys are impressive. Even after hours of play."
+    }
+  ]

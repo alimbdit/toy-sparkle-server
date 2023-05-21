@@ -1,0 +1,22 @@
+[
+    {
+        "blog_id" : "1",
+        "question" : "What is an access token and refresh token? How do they work and where should we store them on the client-side?",
+        "answer" : "Access tokens are credentials used for authentication and authorization in applications. They represent a user's permission to access specific resources and have a limited lifespan. Refresh tokens, on the other hand, are long-lived credentials obtained alongside access tokens and are securely stored on the client-side. When an access token expires, the client can use the refresh token to obtain a new access token without re-authenticating the user. Access tokens should be stored securely in memory or a secure storage mechanism, while refresh tokens require more persistent and secure storage, such as secure cookies or dedicated key-value stores protected by encryption. Following best practices and consulting framework documentation ensures the tokens and resources remain secure."
+    },
+    {
+        "blog_id" : "2",
+        "question" : "Compare SQL and NoSQL databases?",
+        "answer" : "SQL (Structured Query Language) and NoSQL (Not Only SQL) databases are two types of database management systems with distinct characteristics. SQL databases follow a structured data model based on tables with predefined schemas, enforcing data integrity and relationships between tables. They are suitable for applications with well-defined schemas and complex queries. NoSQL databases, on the other hand, offer flexible data models, allowing for dynamic and unstructured data storage. They are designed for scalability and high-performance, making them suitable for handling large amounts of data and accommodating evolving requirements. NoSQL databases sacrifice some of the rigidness and consistency guarantees of SQL databases in favor of scalability and flexibility. The choice between SQL and NoSQL depends on factors such as data structure, scalability needs, query complexity, and development requirements."
+    },
+    {
+        "blog_id" : "3",
+        "question" : "What is express js? What is Nest JS?",
+        "answer" : "Express.js is a minimalist web application framework for Node.js that simplifies the development of web applications and APIs. It provides a robust set of features and middleware to handle routing, HTTP requests, session management, and other common web development tasks. With its lightweight and flexible nature, Express.js allows developers to create server-side applications quickly and efficiently. On the other hand, Nest.js, on the other hand, is a progressive Node.js framework for building scalable and maintainable server-side applications. It is inspired by Angular's architecture and utilizes TypeScript as its primary language. Nest.js combines the best practices and design patterns from various frameworks to provide a structured and modular approach to application development. It offers features like dependency injection, decorators, modules, and a powerful CLI (Command Line Interface) for generating boilerplate code and facilitating development. Nest.js is well-suited for building enterprise-level applications with a focus on scalability and maintainability."
+    },
+    {
+        "blog_id" : "4",
+        "question" : "What is MongoDB aggregate and how does it work ?",
+        "answer" : "MongoDB's aggregate framework provides a flexible and powerful way to analyze data in MongoDB collections. It allows for the execution of complex operations such as grouping, filtering, and aggregating data using a series of stages. These stages can be combined in a pipeline to perform a sequence of transformations on the data. The aggregate framework supports a wide range of operators and functions, enabling advanced data manipulations and calculations. It is particularly useful for performing data analytics, generating reports, and extracting insights from MongoDB databases. With its intuitive and versatile nature, the aggregate framework empowers developers to efficiently process and analyze large volumes of data in MongoDB."
+    }
+]
